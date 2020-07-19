@@ -1,0 +1,923 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "PepsiMod",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Can",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueCan",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PepsiCan",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PepsiCanRed",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PepsiCanCherry",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedCan",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedAndBlueCan",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CanRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlueCanRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedCanRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedandBlueCanRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Pepsi",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ClassicPepsi",
+      "type": "food",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CherryPepsi",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PepsiCanCherryRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PepsiCanRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "RedPepsiCanRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PepsiRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ClassicPepsiRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CherryPepsiRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UnrefinedSteelore",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UnrefinedSteelIngot",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "UnrefinedToRefinedSteel",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VanillaCan",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MangoCan",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BerryCan",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MangoCanRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BerryCanRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VanillaCanRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PepsiCanVanilla",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PepsiCanMango",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PepsiCanBerry",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MangoPepsiCanRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BerryPepsiCanRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VanillaPepsiCanRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MangoPepsi",
+      "type": "food",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BerryPepsi",
+      "type": "food",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VanillaPepsi",
+      "type": "food",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "VanillaPepsiRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BerryPepsiRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MangoPepsiRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DietPepsiCan",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DietPepsiCanRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DietPepsi",
+      "type": "food",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DietPepsiRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DietPepsiItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MangoPepsiItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BerryPepsiItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VanillaPepsiItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CherryPepsiItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PepsiItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClassicPepsiItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelBlockToIngotRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MakePepsiCan",
+      "type": "achievement",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MakeCherryPepsi",
+      "type": "achievement",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MakeClassicPepsi",
+      "type": "achievement",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MakeMangoPepsi",
+      "type": "achievement",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MakeBerryPepsi",
+      "type": "achievement",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MakeVanillaPepsi",
+      "type": "achievement",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MakeDietPepsi",
+      "type": "achievement",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PineappleCan",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pineapple_can"
+    },
+    {
+      "name": "PineappleCanRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pineapple_can_recipe"
+    },
+    {
+      "name": "LimeCan",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_can"
+    },
+    {
+      "name": "LimeCanRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_can_recipe"
+    },
+    {
+      "name": "PepsiCanPineapple",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pepsi_can_pineapple"
+    },
+    {
+      "name": "PineapplePepsiCanRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pineapple_pepsi_can_recipe"
+    },
+    {
+      "name": "PepsiCanLime",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pepsi_can_lime"
+    },
+    {
+      "name": "LimePepsiCanRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_pepsi_can_recipe"
+    },
+    {
+      "name": "PineapplePepsi",
+      "type": "food",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pineapple_pepsi"
+    },
+    {
+      "name": "LimePepsi",
+      "type": "food",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_pepsi"
+    },
+    {
+      "name": "PineapplePepsiRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pineapple_pepsi_recipe"
+    },
+    {
+      "name": "LimePepsiRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lime_pepsi_recipe"
+    },
+    {
+      "name": "CrushOrangeCan",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_orange_can"
+    },
+    {
+      "name": "CrushGrapeCan",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_grape_can"
+    },
+    {
+      "name": "CrushWatermelonCan",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_watermelon_can"
+    },
+    {
+      "name": "CrushOrangeCanRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_orange_can_recipe"
+    },
+    {
+      "name": "CrushGrapeCanRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_grape_can_recipe"
+    },
+    {
+      "name": "CrushWatermelonCanRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_watermelon_can_recipe"
+    },
+    {
+      "name": "CrushOrange",
+      "type": "food",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_orange"
+    },
+    {
+      "name": "CrushGrape",
+      "type": "food",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_grape"
+    },
+    {
+      "name": "CrushWatermelon",
+      "type": "food",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_watermelon"
+    },
+    {
+      "name": "CrushOrangeRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_orange_recipe"
+    },
+    {
+      "name": "CrushGrapeRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_grape_recipe"
+    },
+    {
+      "name": "CrushWatermelonRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crush_watermelon_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.soda.pineapple_pepsi": "Pineapple Pepsi",
+      "item.soda.classicpepsi": "Classic Pepsi",
+      "item.soda.mangocan": "Mango Can",
+      "item.mangopepsi.name": "Mango Pepsi",
+      "item.pepsi.pepsi": "Pepsi",
+      "item.soda.berrypepsi": "Berry Pepsi",
+      "advancements.makevanillapepsi.descr": "You\u0027ve made a Vanilla tasting Pepsi, nice!",
+      "item.soda.pepsicanvanilla": "Vanilla Pepsi Can",
+      "item.pepsi.pepsi_can_pineapple": "Pineapple Pepsi Can",
+      "item.pepsican.name": "Pepsi Can",
+      "item.soda.pepsi_can_pineapple": "Pineapple Pepsi Can",
+      "item.soda.lime_pepsi": "Lime Pepsi",
+      "item.pepsi.redandbluecan": "Red and Blue Can",
+      "item.pepsi.classicpepsi": "Classic Pepsi",
+      "item.soda.pepsi_can_lime": "Lime Pepsi Can",
+      "item.bluecan.name": "Blue Can",
+      "item.unrefinedsteelingot.name": "Unrefined Steel Ingot",
+      "item.pepsicanvanilla.name": "Vanilla Pepsi Can",
+      "item.vanillapepsi.name": "Vanilla Pepsi",
+      "item.pepsi.pepsicanred": "Classic Pepsi Can",
+      "item.soda.cherrypepsi": "Cherry Pepsi",
+      "item.pepsi.steelingot": "Steel Ingot",
+      "item.soda.crush_orange": "Crush Orange",
+      "item.pepsi.cherrypepsi": "Cherry Pepsi",
+      "advancements.makeclassicpepsi.descr": "You\u0027ve Made Classic Pepsi",
+      "item.soda.vanillapepsi": "Vanilla Pepsi",
+      "advancements.makeberrypepsi.title": "Make Berry Pepsi",
+      "item.soda.crush_grape_can": "Crush Grape Can",
+      "item.dietpepsican.name": "Diet Pepsi Can",
+      "block.soda.steelblock": "Steel Block",
+      "tile.unrefinedsteelore.name": "Unrefined Steelore",
+      "item.soda.redcan": "Red Can",
+      "item.soda.pepsicanberry": "Berry Pepsi Can",
+      "item.soda.steelingot": "Steel Ingot",
+      "item.soda.pepsicanred": "Classic Pepsi Can",
+      "item.dietpepsi.name": "Diet Pepsi",
+      "item.pepsicanmango.name": "Mango Pepsi Can",
+      "item.soda.crush_grape": "Crush Grape",
+      "advancements.makedietpepsi.descr": "You\u0027ve Made Diet Pepsi.",
+      "block.pepsi.steelblock": "Steel Block",
+      "item.pepsi.pepsicanmango": "Mango Pepsi Can",
+      "item.pepsi.redcan": "Red Can",
+      "item.soda.unrefinedsteelingot": "Unrefined Steel Ingot",
+      "itemGroup.tabpepsimod": "Soda Mod",
+      "item.pepsi.vanillapepsi": "Vanilla Pepsi",
+      "item.pepsi.pineapple_can": "Pineapple Can",
+      "tile.steelblock.name": "Steel Block",
+      "advancements.makepepsican.descr": "Make your first Pepsi Can",
+      "advancements.makemangopepsi.title": "Make Mango Pepsi",
+      "item.pepsi.can": "Can",
+      "item.soda.lime_can": "Lime Can",
+      "advancements.makedietpepsi.title": "Make Diet Pepsi",
+      "item.soda.crush_orange_can": "Crush Orange Can",
+      "item.pepsi.lime_can": "Lime Can",
+      "item.pepsi.mangocan": "Mango Can",
+      "item.soda.bluecan": "Blue Can",
+      "item.pepsi.pepsican": "Pepsi Can",
+      "block.pepsi.unrefinedsteelore": "Unrefined Steelore",
+      "item.classicpepsi.name": "Classic Pepsi",
+      "advancements.makeberrypepsi.descr": "You\u0027ve made some Berries into Pepsi",
+      "item.pepsi.pepsicancherry": "Cherry Pepsi Can",
+      "item.pepsicanberry.name": "Berry Pepsi Can",
+      "item.pepsi.mangopepsi": "Mango Pepsi",
+      "item.soda.dietpepsican": "Diet Pepsi Can",
+      "item.pepsi.name": "Pepsi",
+      "item.soda.pepsi": "Pepsi",
+      "item.pepsicancherry.name": "Cherry Pepsi Can",
+      "item.redandbluecan.name": "Red and Blue Can",
+      "item.pepsi.pepsi_can_lime": "Lime Pepsi Can",
+      "advancements.makecherrypepsi.title": "Oh? Cherries Galore!",
+      "item.vanillacan.name": "Vanilla Can",
+      "item.steelingot.name": "Steel Ingot",
+      "item.soda.can": "Can",
+      "item.pepsi.pineapple_pepsi": "Pineapple Pepsi",
+      "item.can.name": "Can",
+      "item.pepsi.pepsicanvanilla": "Vanilla Pepsi Can",
+      "item.soda.pepsican": "Pepsi Can",
+      "item.soda.vanillacan": "Vanilla Can",
+      "item.soda.pepsicanmango": "Mango Pepsi Can",
+      "item.pepsi.vanillacan": "Vanilla Can",
+      "item.soda.redandbluecan": "Red and Blue Can",
+      "item.berrypepsi.name": "Berry Pepsi",
+      "item.pepsi.unrefinedsteelingot": "Unrefined Steel Ingot",
+      "item.soda.mangopepsi": "Mango Pepsi",
+      "item.soda.dietpepsi": "Diet Pepsi",
+      "item.soda.crush_watermelon": "Crush Watermelon",
+      "item.pepsi.berrypepsi": "Berry Pepsi",
+      "advancements.makemangopepsi.descr": "You\u0027ve made Mango Pepsi!",
+      "advancements.makepepsican.title": "You can make Pepsi!",
+      "item.redcan.name": "Red Can",
+      "item.soda.berrycan": "Berry Can",
+      "item.pepsi.pepsicanberry": "Berry Pepsi Can",
+      "advancements.makecherrypepsi.descr": "Make Cherry Pepsi.",
+      "item.pepsi.berrycan": "Berry Can",
+      "advancements.makeclassicpepsi.title": "Make Classic Pepsi",
+      "item.berrycan.name": "Berry Can",
+      "item.pepsi.dietpepsi": "Diet Pepsi",
+      "item.mangocan.name": "Mango Can",
+      "advancements.makevanillapepsi.title": "Make Vanilla Pepsi",
+      "item.soda.crush_watermelon_can": "Crush Watermelon Can",
+      "item.pepsi.bluecan": "Blue Can",
+      "item.soda.pineapple_can": "Pineapple Can",
+      "item.pepsicanred.name": "Classic Pepsi Can",
+      "item.soda.pepsicancherry": "Cherry Pepsi Can",
+      "block.soda.unrefinedsteelore": "Unrefined Steelore",
+      "item.cherrypepsi.name": "Cherry Pepsi",
+      "item.pepsi.dietpepsican": "Diet Pepsi Can",
+      "item.pepsi.lime_pepsi": "Lime Pepsi"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "soda",
+    "modName": "Soda Mod",
+    "version": "0.3.0",
+    "description": "Shinyy\u0027s General Soda Mod",
+    "author": "ShinyyEevee",
+    "websiteURL": "https://discord.gg/7KHSPFw",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "newlogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Myself",
+    "modElementsPackage": "net.shinyyssoda",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

@@ -1,0 +1,21 @@
+{
+  "group": "pepsi",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "1": {
+      "item": "pepsi:bluecan"
+    }
+  },
+  "result": {
+    "item": "pepsi:pepsican",
+    "count": 1
+  }
+}

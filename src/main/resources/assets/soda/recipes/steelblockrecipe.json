@@ -1,0 +1,42 @@
+{
+  "group": "pepsi",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pepsi:steelingot"
+    },
+    "1": {
+      "item": "pepsi:steelingot"
+    },
+    "2": {
+      "item": "pepsi:steelingot"
+    },
+    "3": {
+      "item": "pepsi:steelingot"
+    },
+    "4": {
+      "item": "pepsi:steelingot"
+    },
+    "5": {
+      "item": "pepsi:steelingot"
+    },
+    "6": {
+      "item": "pepsi:steelingot"
+    },
+    "7": {
+      "item": "pepsi:steelingot"
+    },
+    "8": {
+      "item": "pepsi:steelingot"
+    }
+  },
+  "result": {
+    "item": "pepsi:steelblock",
+    "count": 1
+  }
+}

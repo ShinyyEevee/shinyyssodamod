@@ -1,0 +1,22 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "1": {
+      "item": "soda:dietpepsican"
+    },
+    "2": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "item": "soda:dietpepsi",
+    "count": 1
+  }
+}

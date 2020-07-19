@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "pepsi:mangopepsi"
+    },
+    "title": {
+      "translate": "advancements.makemangopepsi.title"
+    },
+    "description": {
+      "translate": "advancements.makemangopepsi.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "makemangopepsi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pepsi:mangopepsi",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "pepsi:makeclassicpepsi"
+}

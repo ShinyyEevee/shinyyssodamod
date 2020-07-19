@@ -1,0 +1,17 @@
+{
+  "group": "pepsi",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    {
+      "item": "pepsi:mangocan"
+    }
+  ],
+  "result": {
+    "item": "pepsi:pepsicanmango",
+    "count": 1
+  }
+}

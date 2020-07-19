@@ -1,0 +1,24 @@
+{
+  "_fv": 8,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "pepsicanlime",
+    "customModelName": "Normal",
+    "name": "Lime Pepsi",
+    "specialInfo": [
+      "Lime Flavored Pepsi"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:PepsiMod"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 7,
+    "saturation": 6.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

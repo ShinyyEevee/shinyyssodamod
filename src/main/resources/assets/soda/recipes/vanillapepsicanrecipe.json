@@ -1,0 +1,16 @@
+{
+  "group": "pepsi",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:air"
+    },
+    {
+      "item": "pepsi:vanillacan"
+    }
+  ],
+  "result": {
+    "item": "pepsi:pepsicanvanilla",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "pepsi:vanillapepsi"
+    },
+    "title": {
+      "translate": "advancements.makevanillapepsi.title"
+    },
+    "description": {
+      "translate": "advancements.makevanillapepsi.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "makevanillapepsi": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "pepsi:vanillapepsi",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "pepsi:makeberrypepsi"
+}

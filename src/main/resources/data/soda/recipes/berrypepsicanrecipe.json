@@ -1,0 +1,16 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:white_dye"
+    },
+    {
+      "item": "soda:berrycan"
+    }
+  ],
+  "result": {
+    "item": "soda:pepsicanberry",
+    "count": 1
+  }
+}

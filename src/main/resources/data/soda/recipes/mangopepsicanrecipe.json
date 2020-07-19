@@ -1,0 +1,16 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "soda:mangocan"
+    }
+  ],
+  "result": {
+    "item": "soda:pepsicanmango",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "pepsi",
+    "name": "Pepsi",
+    "description": "Pepsi Mod",
+    "version": "1.0.0",
+    "credits": "Shinyy's Pepsi Mod",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://discord.gg/7KHSPFw",
+    "updateUrl": "",
+    "authorList": [
+      "ShinyyEevee"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

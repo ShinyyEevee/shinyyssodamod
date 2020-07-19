@@ -1,0 +1,20 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone_meal"
+    },
+    "1": {
+      "item": "soda:pineapple_can"
+    }
+  },
+  "result": {
+    "item": "soda:pepsi_can_pineapple",
+    "count": 1
+  }
+}

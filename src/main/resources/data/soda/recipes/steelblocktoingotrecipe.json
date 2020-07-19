@@ -1,0 +1,16 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "soda:steelblock"
+    }
+  },
+  "result": {
+    "item": "soda:steelingot",
+    "count": 9
+  }
+}

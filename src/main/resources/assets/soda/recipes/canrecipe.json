@@ -1,0 +1,24 @@
+{
+  "group": "pepsi",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "pepsi:steelingot"
+    },
+    "1": {
+      "item": "pepsi:steelingot"
+    },
+    "2": {
+      "item": "pepsi:steelingot"
+    }
+  },
+  "result": {
+    "item": "pepsi:can",
+    "count": 1
+  }
+}

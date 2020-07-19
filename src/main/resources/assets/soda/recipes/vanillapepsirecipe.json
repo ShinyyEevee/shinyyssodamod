@@ -1,0 +1,24 @@
+{
+  "group": "pepsi",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 3
+    },
+    {
+      "item": "pepsi:pepsicanvanilla"
+    },
+    {
+      "item": "minecraft:potion",
+      "data": 32767
+    }
+  ],
+  "result": {
+    "item": "pepsi:vanillapepsi",
+    "count": 1
+  }
+}

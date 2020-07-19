@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="soda"
+version="0.3.0"
+displayName="Soda Mod"
+credits="Myself"
+displayURL="https://discord.gg/7KHSPFw"
+logoFile="logo.png"
+authors="ShinyyEevee"
+description='''
+Shinyy's General Soda Mod
+'''
+
+[[dependencies.soda]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

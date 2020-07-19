@@ -1,0 +1,22 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "soda:pepsicanvanilla"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "soda:vanillapepsi",
+    "count": 1
+  }
+}

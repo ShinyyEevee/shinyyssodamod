@@ -1,0 +1,42 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "soda:steelingot"
+    },
+    "1": {
+      "item": "soda:steelingot"
+    },
+    "2": {
+      "item": "soda:steelingot"
+    },
+    "3": {
+      "item": "soda:steelingot"
+    },
+    "4": {
+      "item": "soda:steelingot"
+    },
+    "5": {
+      "item": "soda:steelingot"
+    },
+    "6": {
+      "item": "soda:steelingot"
+    },
+    "7": {
+      "item": "soda:steelingot"
+    },
+    "8": {
+      "item": "soda:steelingot"
+    }
+  },
+  "result": {
+    "item": "soda:steelblock",
+    "count": 1
+  }
+}
