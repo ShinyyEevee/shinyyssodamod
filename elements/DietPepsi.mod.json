@@ -1,5 +1,5 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "food",
   "definition": {
     "renderType": 0,
@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Diet Pepsi",
     "specialInfo": [
-      "Classic Pepsi Drink\\ just dieted"
+      "Classic Pepsi Drink, just dieted"
     ],
     "creativeTab": {
       "value": "CUSTOM:PepsiMod"

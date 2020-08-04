@@ -9,13 +9,15 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import java.util.Map;
+
 @SodaModElements.ModElement.Tag
 public class BerryPepsiItemIsCraftedsmeltedProcedure extends SodaModElements.ModElement {
 	public BerryPepsiItemIsCraftedsmeltedProcedure(SodaModElements instance) {
 		super(instance, 60);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure BerryPepsiItemIsCraftedsmelted!");
 			return;

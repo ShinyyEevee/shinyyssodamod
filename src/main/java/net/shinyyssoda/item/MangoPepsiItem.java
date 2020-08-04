@@ -17,7 +17,9 @@ import net.minecraft.item.Food;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 @SodaModElements.ModElement.Tag
 public class MangoPepsiItem extends SodaModElements.ModElement {
@@ -44,6 +46,11 @@ public class MangoPepsiItem extends SodaModElements.ModElement {
 		}
 
 		@Override
+		public net.minecraft.util.SoundEvent getEatSound() {
+			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
+		}
+
+		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Mango Flavored Pepsi"));
@@ -52,11 +59,11 @@ public class MangoPepsiItem extends SodaModElements.ModElement {
 		@Override
 		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
 			super.onCreated(itemstack, world, entity);
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				MangoPepsiItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
 			}

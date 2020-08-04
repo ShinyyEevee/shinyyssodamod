@@ -3,10 +3,10 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="soda"
-version="0.3.0"
+version="0.2.7"
 displayName="Soda Mod"
 credits="Myself"
-displayURL="https://discord.gg/7KHSPFw"
+displayURL="https://discord.gg/9xnVJxu"
 logoFile="logo.png"
 authors="ShinyyEevee"
 description='''
@@ -19,6 +19,7 @@ Shinyy's General Soda Mod
     versionRange="[1.15.2]"
     ordering="NONE"
     side="BOTH"
+
 
 
 
