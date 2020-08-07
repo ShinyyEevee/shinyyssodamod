@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Meme Soda",
+    "icon": {
+      "value": "CUSTOM:GrassSoda"
+    },
+    "showSearch": false
+  }
+}

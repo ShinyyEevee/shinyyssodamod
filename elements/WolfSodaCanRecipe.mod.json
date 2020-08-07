@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SPAWN_EGG#95"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SPAWN_EGG#95"
+      },
+      {
+        "value": "CUSTOM:Can"
+      },
+      {
+        "value": "Items.SPAWN_EGG#95"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SPAWN_EGG#95"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WolfSodaCan"
+    },
+    "name": "wolf_soda_can_recipe",
+    "namespace": "mod"
+  }
+}

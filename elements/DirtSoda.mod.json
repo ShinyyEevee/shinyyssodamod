@@ -1,0 +1,24 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "dirtsoda",
+    "customModelName": "Normal",
+    "name": "Dirt Soda",
+    "specialInfo": [
+      "MizuCosplayz is a meme"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:MemeSoda"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 3.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

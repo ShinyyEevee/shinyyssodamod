@@ -1,0 +1,30 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:dirt"
+    },
+    "3": {
+      "item": "minecraft:dirt"
+    },
+    "4": {
+      "item": "soda:can"
+    },
+    "5": {
+      "item": "minecraft:dirt"
+    },
+    "7": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "soda:dirt_soda_can",
+    "count": 1
+  }
+}

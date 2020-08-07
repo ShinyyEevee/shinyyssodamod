@@ -820,6 +820,217 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crush_cherry_recipe"
+    },
+    {
+      "name": "GrassSodaCan",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_soda_can"
+    },
+    {
+      "name": "GrassSodaCanRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_soda_can_recipe"
+    },
+    {
+      "name": "GrassSoda",
+      "type": "food",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_soda"
+    },
+    {
+      "name": "GrassSodaRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_soda_recipe"
+    },
+    {
+      "name": "DirtSodaCan",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_soda_can"
+    },
+    {
+      "name": "DirtSodaCanRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_soda_can_recipe"
+    },
+    {
+      "name": "DirtSoda",
+      "type": "food",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_soda"
+    },
+    {
+      "name": "DirtSodaRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_soda_recipe"
+    },
+    {
+      "name": "WolfSodaCan",
+      "type": "item",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wolf_soda_can"
+    },
+    {
+      "name": "WolfSodaCanRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wolf_soda_can_recipe"
+    },
+    {
+      "name": "WolfSoda",
+      "type": "food",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wolf_soda"
+    },
+    {
+      "name": "WolfSodaRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wolf_soda_recipe"
+    },
+    {
+      "name": "WolfSodaFoodEaten",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wolf_soda_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CatSodaCan",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_soda_can"
+    },
+    {
+      "name": "CatSodaCanRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_soda_can_recipe"
+    },
+    {
+      "name": "CatSoda",
+      "type": "food",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_soda"
+    },
+    {
+      "name": "MemeSoda",
+      "type": "tab",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "meme_soda"
+    },
+    {
+      "name": "CatSodaRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_soda_recipe"
+    },
+    {
+      "name": "CatSodaFoodEaten",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cat_soda_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -843,16 +1054,19 @@
       "item.soda.pepsi_can_lime": "Lime Pepsi Can",
       "item.unrefinedsteelingot.name": "Unrefined Steel Ingot",
       "item.bluecan.name": "Blue Can",
+      "item.soda.dirt_soda_can": "Dirt Soda Can",
       "item.pepsicanvanilla.name": "Vanilla Pepsi Can",
       "item.vanillapepsi.name": "Vanilla Pepsi",
       "item.pepsi.pepsicanred": "Classic Pepsi Can",
       "item.soda.cherrypepsi": "Cherry Pepsi",
       "item.pepsi.steelingot": "Steel Ingot",
+      "item.soda.wolf_soda_can": "Wolf Soda Can",
       "item.soda.crush_orange": "Crush Orange",
       "item.pepsi.cherrypepsi": "Cherry Pepsi",
       "advancements.makeclassicpepsi.descr": "You\u0027ve Made Classic Pepsi",
       "item.soda.vanillapepsi": "Vanilla Pepsi",
       "advancements.makeberrypepsi.title": "Make Berry Pepsi",
+      "item.soda.grass_soda_can": "Grass Soda Can",
       "item.soda.crush_grape_can": "Crush Grape Can",
       "item.dietpepsican.name": "Diet Pepsi Can",
       "block.soda.steelblock": "Steel Block",
@@ -860,7 +1074,9 @@
       "item.soda.redcan": "Red Can",
       "item.soda.pepsicanberry": "Berry Pepsi Can",
       "item.soda.steelingot": "Steel Ingot",
+      "item.soda.wolf_soda": "Wolf Soda",
       "item.soda.pepsicanred": "Classic Pepsi Can",
+      "item.soda.cat_soda_can": "Cat Soda Can",
       "item.dietpepsi.name": "Diet Pepsi",
       "item.pepsicanmango.name": "Mango Pepsi Can",
       "item.soda.crush_grape": "Crush Grape",
@@ -881,6 +1097,7 @@
       "item.soda.lime_can": "Lime Can",
       "advancements.makedietpepsi.title": "Make Diet Pepsi",
       "item.soda.crush_orange_can": "Crush Orange Can",
+      "item.soda.grass_soda": "Grass Soda",
       "item.pepsi.lime_can": "Lime Can",
       "item.pepsi.mangocan": "Mango Can",
       "item.soda.bluecan": "Blue Can",
@@ -908,10 +1125,13 @@
       "item.soda.vanillacan": "Vanilla Can",
       "item.soda.pepsicanmango": "Mango Pepsi Can",
       "item.pepsi.vanillacan": "Vanilla Can",
+      "itemGroup.tabmeme_soda": "Meme Soda",
       "item.soda.redandbluecan": "Red and Blue Can",
+      "item.soda.dirt_soda": "Dirt Soda",
       "item.berrypepsi.name": "Berry Pepsi",
       "item.pepsi.unrefinedsteelingot": "Unrefined Steel Ingot",
       "item.soda.mangopepsi": "Mango Pepsi",
+      "item.soda.cat_soda": "Cat Soda",
       "item.soda.dietpepsi": "Diet Pepsi",
       "item.soda.crush_watermelon": "Crush Watermelon",
       "item.pepsi.berrypepsi": "Berry Pepsi",
