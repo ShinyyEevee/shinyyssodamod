@@ -1,7 +1,7 @@
 
 package net.shinyyssoda.item;
 
-import net.shinyyssoda.itemgroup.PepsiModItemGroup;
+import net.shinyyssoda.itemgroup.SodaModBlockTabItemGroup;
 import net.shinyyssoda.SodaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -30,7 +30,7 @@ public class SteelIngotItem extends SodaModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(PepsiModItemGroup.tab).maxStackSize(64));
+			super(new Item.Properties().group(SodaModBlockTabItemGroup.tab).maxStackSize(64));
 			setRegistryName("steelingot");
 		}
 

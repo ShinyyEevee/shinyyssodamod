@@ -1,0 +1,26 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "minecraft:golden_apple"
+    },
+    "4": {
+      "item": "soda:gold_can"
+    },
+    "5": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "item": "soda:gold_soda",
+    "count": 1
+  }
+}

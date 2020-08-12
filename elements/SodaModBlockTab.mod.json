@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Soda Misc Tab",
+    "icon": {
+      "value": "CUSTOM:UnrefinedSteelore"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#17"
+      },
+      {
+        "value": "CUSTOM:Can"
+      },
+      {
+        "value": "Items.DYE#17"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#17"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RootBeerCan"
+    },
+    "name": "root_beer_can_recipe",
+    "namespace": "mod"
+  }
+}

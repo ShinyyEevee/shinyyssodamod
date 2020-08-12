@@ -3,10 +3,10 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="soda"
-version="0.2.8"
+version="0.3.0"
 displayName="Soda Mod"
 credits="Myself"
-displayURL="https://discord.gg/9xnVJxu"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/shinyys-soda-mod/"
 logoFile="logo.png"
 authors="ShinyyEevee"
 description='''

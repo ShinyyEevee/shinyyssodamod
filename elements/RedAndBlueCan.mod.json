@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Red and Blue Can",
     "creativeTab": {
-      "value": "CUSTOM:PepsiMod"
+      "value": "CUSTOM:SodaModCanTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -23,6 +23,7 @@
       "A Red and Blue Can"
     ],
     "hasGlow": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64
   }

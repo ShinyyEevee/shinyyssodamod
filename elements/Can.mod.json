@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Can",
     "creativeTab": {
-      "value": "CUSTOM:PepsiMod"
+      "value": "CUSTOM:SodaModCanTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -23,6 +23,7 @@
       "Just a Regular Can nothing to see here."
     ],
     "hasGlow": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64
   }

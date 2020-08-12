@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Berry Pepsi Can",
     "creativeTab": {
-      "value": "CUSTOM:PepsiMod"
+      "value": "CUSTOM:SodaModCanTab"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -23,6 +23,7 @@
       "A pepsi can that looks like it is for berries."
     ],
     "hasGlow": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64
   }

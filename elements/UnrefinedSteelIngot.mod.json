@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Unrefined Steel Ingot",
     "creativeTab": {
-      "value": "CUSTOM:PepsiMod"
+      "value": "CUSTOM:SodaModBlockTab"
     },
     "stackSize": 64,
     "enchantability": 0,

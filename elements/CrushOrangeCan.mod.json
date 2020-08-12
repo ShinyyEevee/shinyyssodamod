@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Crush Orange Can",
     "creativeTab": {
-      "value": "CUSTOM:PepsiMod"
+      "value": "CUSTOM:SodaModCanTab"
     },
     "stackSize": 64,
     "enchantability": 0,
