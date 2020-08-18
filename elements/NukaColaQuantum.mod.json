@@ -3,26 +3,21 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "wolfsoda",
+    "texture": "nukacolaquantum",
     "customModelName": "Normal",
-    "name": "Wolf Soda",
-    "specialInfo": [
-      "MizuCosplayz is a meme"
-    ],
+    "name": "Nuka Cola Quantum",
+    "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:MemeSoda"
+      "value": "CUSTOM:PepsiMod"
     },
     "stackSize": 16,
-    "nutritionalValue": 4,
-    "saturation": 3.0,
+    "nutritionalValue": 8,
+    "saturation": 7.0,
     "eatingSpeed": 32,
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "drink",
     "hasGlow": false,
-    "onEaten": {
-      "name": "WolfSodaFoodEaten"
-    },
     "onCrafted": {
       "name": "PepsiItemIsCraftedsmelted"
     }

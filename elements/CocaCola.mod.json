@@ -17,6 +17,9 @@
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "drink",
-    "hasGlow": false
+    "hasGlow": false,
+    "onCrafted": {
+      "name": "PepsiItemIsCraftedsmelted"
+    }
   }
 }

@@ -1,0 +1,30 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "4": {
+      "item": "soda:nuka_cola_quantum"
+    },
+    "5": {
+      "item": "minecraft:potion"
+    },
+    "6": {
+      "item": "minecraft:cyan_dye"
+    }
+  },
+  "result": {
+    "item": "soda:nuka_cola_quantum",
+    "count": 1
+  }
+}

@@ -18,11 +18,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @SodaModElements.ModElement.Tag
-public class CrushCherryItem extends SodaModElements.ModElement {
-	@ObjectHolder("soda:crush_cherry")
+public class NukaColaItem extends SodaModElements.ModElement {
+	@ObjectHolder("soda:nuka_cola")
 	public static final Item block = null;
-	public CrushCherryItem(SodaModElements instance) {
-		super(instance, 101);
+	public NukaColaItem(SodaModElements instance) {
+		super(instance, 147);
 	}
 
 	@Override
@@ -32,8 +32,8 @@ public class CrushCherryItem extends SodaModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(PepsiModItemGroup.tab).maxStackSize(16)
-					.food((new Food.Builder()).hunger(7).saturation(6f).setAlwaysEdible().build()));
-			setRegistryName("crush_cherry");
+					.food((new Food.Builder()).hunger(6).saturation(5f).setAlwaysEdible().build()));
+			setRegistryName("nuka_cola");
 		}
 
 		@Override

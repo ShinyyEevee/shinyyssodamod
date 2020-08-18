@@ -1,6 +1,7 @@
 
 package net.shinyyssoda.item;
 
+import net.shinyyssoda.procedures.PepsiItemIsCraftedsmeltedProcedure;
 import net.shinyyssoda.procedures.CatSodaFoodEatenProcedure;
 import net.shinyyssoda.itemgroup.MemeSodaItemGroup;
 import net.shinyyssoda.SodaModElements;
@@ -12,6 +13,7 @@ import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
 import java.util.Map;
@@ -61,6 +63,19 @@ public class CatSodaItem extends SodaModElements.ModElement {
 				CatSodaFoodEatenProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
+		}
+
+		@Override
+		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
+			super.onCreated(itemstack, world, entity);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				PepsiItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

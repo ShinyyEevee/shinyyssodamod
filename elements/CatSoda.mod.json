@@ -20,6 +20,9 @@
     "hasGlow": false,
     "onEaten": {
       "name": "CatSodaFoodEaten"
+    },
+    "onCrafted": {
+      "name": "PepsiItemIsCraftedsmelted"
     }
   }
 }

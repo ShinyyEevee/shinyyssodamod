@@ -1,6 +1,7 @@
 
 package net.shinyyssoda.item;
 
+import net.shinyyssoda.procedures.PepsiItemIsCraftedsmeltedProcedure;
 import net.shinyyssoda.itemgroup.MemeSodaItemGroup;
 import net.shinyyssoda.SodaModElements;
 
@@ -13,9 +14,12 @@ import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 @SodaModElements.ModElement.Tag
 public class DirtSodaItem extends SodaModElements.ModElement {
@@ -50,6 +54,19 @@ public class DirtSodaItem extends SodaModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("MizuCosplayz is a meme"));
+		}
+
+		@Override
+		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
+			super.onCreated(itemstack, world, entity);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				PepsiItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }

@@ -1,15 +1,21 @@
 
 package net.shinyyssoda.item;
 
+import net.shinyyssoda.procedures.PepsiItemIsCraftedsmeltedProcedure;
 import net.shinyyssoda.itemgroup.PepsiModItemGroup;
 import net.shinyyssoda.SodaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
+import net.minecraft.entity.player.PlayerEntity;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @SodaModElements.ModElement.Tag
 public class RootBeerItem extends SodaModElements.ModElement {
@@ -38,6 +44,19 @@ public class RootBeerItem extends SodaModElements.ModElement {
 		@Override
 		public net.minecraft.util.SoundEvent getEatSound() {
 			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
+		}
+
+		@Override
+		public void onCreated(ItemStack itemstack, World world, PlayerEntity entity) {
+			super.onCreated(itemstack, world, entity);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				PepsiItemIsCraftedsmeltedProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }
