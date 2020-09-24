@@ -1,0 +1,36 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_dye"
+    },
+    "2": {
+      "item": "minecraft:lime_dye"
+    },
+    "3": {
+      "item": "minecraft:black_dye"
+    },
+    "4": {
+      "item": "soda:can"
+    },
+    "5": {
+      "item": "minecraft:lime_dye"
+    },
+    "6": {
+      "item": "minecraft:black_dye"
+    },
+    "8": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "soda:game_fuel_green_can",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "7upcherrycan",
+    "customModelName": "Normal",
+    "name": "7-Up Cherry",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:PepsiMod"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 7,
+    "saturation": 6.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false
+  }
+}

@@ -32,7 +32,7 @@ public class NukaColaItem extends SodaModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(PepsiModItemGroup.tab).maxStackSize(16)
-					.food((new Food.Builder()).hunger(6).saturation(5f).setAlwaysEdible().build()));
+					.food((new Food.Builder()).hunger(7).saturation(6f).setAlwaysEdible().build()));
 			setRegistryName("nuka_cola");
 		}
 

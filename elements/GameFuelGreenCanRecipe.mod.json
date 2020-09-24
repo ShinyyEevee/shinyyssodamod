@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#10"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": "CUSTOM:Can"
+      },
+      {
+        "value": "Items.DYE#10"
+      },
+      {
+        "value": "Items.DYE#16"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#10"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GameFuelGreenCan"
+    },
+    "name": "game_fuel_green_can_recipe",
+    "namespace": "mod"
+  }
+}
