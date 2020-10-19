@@ -1625,9 +1625,9 @@
       "item.soda.game_fuel_yellow_can": "Game Fuel Yellow Can",
       "item.pepsi.pepsi_can_pineapple": "Pineapple Pepsi Can",
       "item.soda.gold_can": "Gold Can",
-      "item.pepsican.name": "Pepsi Can",
-      "item.soda.pepsi_can_pineapple": "Pineapple Pepsi Can",
       "item.soda.lime_pepsi": "Lime Pepsi",
+      "item.soda.pepsi_can_pineapple": "Pineapple Pepsi Can",
+      "item.pepsican.name": "Pepsi Can",
       "item.soda.mtn_dew_can": "Mountain Dew Can",
       "item.pepsi.redandbluecan": "Red and Blue Can",
       "item.pepsi.classicpepsi": "Classic Pepsi",
@@ -1784,5 +1784,5 @@
     "modElementsPackage": "net.shinyyssoda",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000431617
+  "mcreatorVersion": 202000432115
 }

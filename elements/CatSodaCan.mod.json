@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Cat Soda Can",
     "creativeTab": {
-      "value": "CUSTOM:MemeSoda"
+      "value": "CUSTOM:SodaModCanTab"
     },
     "stackSize": 64,
     "enchantability": 0,

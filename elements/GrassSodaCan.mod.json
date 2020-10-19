@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Grass Soda Can",
     "creativeTab": {
-      "value": "CUSTOM:MemeSoda"
+      "value": "CUSTOM:SodaModCanTab"
     },
     "stackSize": 64,
     "enchantability": 0,

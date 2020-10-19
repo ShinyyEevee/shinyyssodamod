@@ -1,7 +1,7 @@
 
 package net.shinyyssoda.block;
 
-import net.shinyyssoda.itemgroup.PepsiModItemGroup;
+import net.shinyyssoda.itemgroup.SodaModBlockTabItemGroup;
 import net.shinyyssoda.SodaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -30,7 +30,8 @@ public class SteelBlockBlock extends SodaModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(PepsiModItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items
+				.add(() -> new BlockItem(block, new Item.Properties().group(SodaModBlockTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
