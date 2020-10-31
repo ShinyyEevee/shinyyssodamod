@@ -1606,6 +1606,41 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "game_fuel_blue_recipe"
+    },
+    {
+      "name": "SpookySoda",
+      "type": "food",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spooky_soda"
+    },
+    {
+      "name": "SpookySodaFoodEaten",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spooky_soda_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpookySodaLoot",
+      "type": "loottable",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spooky_soda_loot"
     }
   ],
   "variable_elements": [],
@@ -1625,9 +1660,9 @@
       "item.soda.game_fuel_yellow_can": "Game Fuel Yellow Can",
       "item.pepsi.pepsi_can_pineapple": "Pineapple Pepsi Can",
       "item.soda.gold_can": "Gold Can",
-      "item.soda.lime_pepsi": "Lime Pepsi",
-      "item.soda.pepsi_can_pineapple": "Pineapple Pepsi Can",
       "item.pepsican.name": "Pepsi Can",
+      "item.soda.pepsi_can_pineapple": "Pineapple Pepsi Can",
+      "item.soda.lime_pepsi": "Lime Pepsi",
       "item.soda.mtn_dew_can": "Mountain Dew Can",
       "item.pepsi.redandbluecan": "Red and Blue Can",
       "item.pepsi.classicpepsi": "Classic Pepsi",
@@ -1668,6 +1703,7 @@
       "item.dietpepsi.name": "Diet Pepsi",
       "item.pepsicanmango.name": "Mango Pepsi Can",
       "item.soda.crush_grape": "Crush Grape",
+      "item.soda.spooky_soda": "Spooky Soda",
       "item.soda.crush_cherry": "Crush Cherry",
       "advancements.makedietpepsi.descr": "You\u0027ve Made Diet Pepsi.",
       "block.pepsi.steelblock": "Steel Block",
@@ -1768,7 +1804,7 @@
   "workspaceSettings": {
     "modid": "soda",
     "modName": "Soda Mod",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "Shinyy\u0027s General Soda Mod",
     "author": "ShinyyEevee",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/shinyys-soda-mod/",

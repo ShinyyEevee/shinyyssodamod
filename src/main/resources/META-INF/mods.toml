@@ -3,7 +3,7 @@ loaderVersion="[31,)"
 
 [[mods]]
 modId="soda"
-version="0.3.1"
+version="0.3.2"
 displayName="Soda Mod"
 credits="Myself"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/shinyys-soda-mod/"
