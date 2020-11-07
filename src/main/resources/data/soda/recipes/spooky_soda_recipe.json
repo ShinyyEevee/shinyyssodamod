@@ -1,0 +1,32 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spider_eye"
+    },
+    "1": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "minecraft:slime_ball"
+    },
+    "3": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "4": {
+      "item": "soda:spooky_soda_can"
+    },
+    "5": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "item": "soda:spooky_soda",
+    "count": 1
+  }
+}

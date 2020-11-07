@@ -1,0 +1,19 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "soda:can"
+    },
+    "1": {
+      "item": "minecraft:carved_pumpkin"
+    }
+  },
+  "result": {
+    "item": "soda:spooky_soda_can",
+    "count": 1
+  }
+}

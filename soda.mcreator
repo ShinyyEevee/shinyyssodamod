@@ -1634,13 +1634,31 @@
       }
     },
     {
-      "name": "SpookySodaLoot",
-      "type": "loottable",
+      "name": "SpookySodaCan",
+      "type": "item",
       "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "spooky_soda_loot"
+      "registry_name": "spooky_soda_can"
+    },
+    {
+      "name": "SpookySodaCanRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spooky_soda_can_recipe"
+    },
+    {
+      "name": "SpookySodaRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spooky_soda_recipe"
     }
   ],
   "variable_elements": [],
@@ -1656,6 +1674,7 @@
       "item.soda.berrypepsi": "Berry Pepsi",
       "advancements.makevanillapepsi.descr": "You\u0027ve made a Vanilla tasting Pepsi, nice!",
       "item.soda.pepsicanvanilla": "Vanilla Pepsi Can",
+      "item.soda.spooky_soda_can": "Spooky Soda Can",
       "item.soda.nuka_cola_cherry_glass": "Nuka Cola Cherry Glass",
       "item.soda.game_fuel_yellow_can": "Game Fuel Yellow Can",
       "item.pepsi.pepsi_can_pineapple": "Pineapple Pepsi Can",

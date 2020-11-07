@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.SPIDER_EYE"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "Items.SLIME_BALL"
+      },
+      {
+        "value": "Items.ROTTEN_FLESH"
+      },
+      {
+        "value": "CUSTOM:SpookySodaCan"
+      },
+      {
+        "value": "Items.POTIONITEM"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SpookySoda"
+    },
+    "name": "spooky_soda_recipe",
+    "namespace": "mod"
+  }
+}
