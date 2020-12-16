@@ -1,0 +1,10 @@
+{
+  "parent": "soda:custom/green_vending_machine_lower",
+  "textures": {
+    "all": "soda:blocks/steel_block",
+    "particle": "soda:blocks/steel_block",
+    "0": "soda:blocks/model0",
+    "2": "soda:blocks/model2",
+    "3": "soda:blocks/vending_machine2"
+  }
+}

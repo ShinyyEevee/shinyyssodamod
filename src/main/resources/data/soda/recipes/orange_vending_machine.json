@@ -1,0 +1,36 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:orange_dye"
+    },
+    "1": {
+      "item": "soda:steelblock"
+    },
+    "2": {
+      "item": "minecraft:orange_dye"
+    },
+    "3": {
+      "item": "minecraft:gray_dye"
+    },
+    "4": {
+      "item": "soda:steelblock"
+    },
+    "5": {
+      "item": "minecraft:gray_dye"
+    },
+    "7": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "soda:vending_machine_bottom",
+    "count": 1
+  }
+}

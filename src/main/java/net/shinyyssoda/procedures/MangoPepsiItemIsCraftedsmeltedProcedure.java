@@ -19,7 +19,8 @@ public class MangoPepsiItemIsCraftedsmeltedProcedure extends SodaModElements.Mod
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure MangoPepsiItemIsCraftedsmelted!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure MangoPepsiItemIsCraftedsmelted!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

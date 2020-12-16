@@ -1659,6 +1659,232 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "spooky_soda_recipe"
+    },
+    {
+      "name": "VendingMachineRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vending_machine_recipe"
+    },
+    {
+      "name": "GreenVendingMachineRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_vending_machine_recipe"
+    },
+    {
+      "name": "VendingMachineBottom",
+      "type": "block",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vending_machine_bottom"
+    },
+    {
+      "name": "VendingMachineTop",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vending_machine_top"
+    },
+    {
+      "name": "VendingMachineBottomBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vending_machine_bottom_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VendingMachineBottomBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vending_machine_bottom_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VendingMachineTopBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vending_machine_top_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OrangeVendingMachine",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "orange_vending_machine"
+    },
+    {
+      "name": "GreenVMTop",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_vm_top"
+    },
+    {
+      "name": "GreenVMBottom",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_vm_bottom"
+    },
+    {
+      "name": "GreenVMBottomBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "green_vm_bottom_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlueVMBottom",
+      "type": "block",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_vm_bottom"
+    },
+    {
+      "name": "BlueVMTop",
+      "type": "block",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_vm_top"
+    },
+    {
+      "name": "BlueVMBottomBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blue_vm_bottom_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1695,6 +1921,7 @@
       "item.vanillapepsi.name": "Vanilla Pepsi",
       "item.pepsi.pepsicanred": "Classic Pepsi Can",
       "item.soda.cherrypepsi": "Cherry Pepsi",
+      "block.soda.vending_machine_top": "Vending Machine",
       "item.soda.nuka_cola_quantum": "Nuka Cola Quantum",
       "item.pepsi.steelingot": "Steel Ingot",
       "item.soda.wolf_soda_can": "Wolf Soda Can",
@@ -1704,6 +1931,7 @@
       "advancements.makeclassicpepsi.descr": "You\u0027ve Made Classic Pepsi",
       "item.soda.vanillapepsi": "Vanilla Pepsi",
       "item.soda.nuka_cola_quantum_glass": "Nuka Cola Quantum Glass",
+      "block.soda.blue_vm_top": "Vending Machine",
       "item.soda.seven_up_cherry": "7-Up Cherry",
       "item.soda.kick_start": "Kick Start",
       "advancements.makeberrypepsi.title": "Make Berry Pepsi",
@@ -1762,8 +1990,10 @@
       "item.soda.pepsi": "Pepsi",
       "item.pepsicancherry.name": "Cherry Pepsi Can",
       "item.soda.game_fuel_green_can": "Game Fuel Green Can",
+      "block.soda.green_vm_bottom": "Vending Machine",
       "item.redandbluecan.name": "Red and Blue Can",
       "item.pepsi.pepsi_can_lime": "Lime Pepsi Can",
+      "block.soda.blue_vm_bottom": "Vending Machine",
       "advancements.makecherrypepsi.title": "Oh? Cherries Galore!",
       "item.vanillacan.name": "Vanilla Can",
       "item.soda.dr_pepper_can": "Dr Pepper Can",
@@ -1780,6 +2010,7 @@
       "item.soda.pepsicanmango": "Mango Pepsi Can",
       "item.soda.game_fuel_red": "Game Fuel Red",
       "item.soda.game_fuel_green": "Game Fuel Green",
+      "block.soda.green_vm_top": "Vending Machine",
       "item.pepsi.vanillacan": "Vanilla Can",
       "itemGroup.tabmeme_soda": "Meme Soda",
       "item.soda.redandbluecan": "Red and Blue Can",
@@ -1811,6 +2042,7 @@
       "item.soda.mtn_dew": "Mountain Dew",
       "item.soda.crush_watermelon_can": "Crush Watermelon Can",
       "item.pepsi.bluecan": "Blue Can",
+      "block.soda.vending_machine_bottom": "Vending Machine",
       "item.soda.pineapple_can": "Pineapple Can",
       "item.pepsicanred.name": "Classic Pepsi Can",
       "item.soda.pepsicancherry": "Cherry Pepsi Can",
@@ -1823,7 +2055,7 @@
   "workspaceSettings": {
     "modid": "soda",
     "modName": "Soda Mod",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "Shinyy\u0027s General Soda Mod",
     "author": "ShinyyEevee",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/shinyys-soda-mod/",
@@ -1839,5 +2071,5 @@
     "modElementsPackage": "net.shinyyssoda",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000432115
+  "mcreatorVersion": 202000546519
 }

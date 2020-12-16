@@ -11,6 +11,7 @@ import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.UseAction;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
@@ -35,13 +36,13 @@ public class DirtSodaItem extends SodaModElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(MemeSodaItemGroup.tab).maxStackSize(64)
+			super(new Item.Properties().group(MemeSodaItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
 					.food((new Food.Builder()).hunger(4).saturation(3f).setAlwaysEdible().build()));
 			setRegistryName("dirt_soda");
 		}
 
 		@Override
-		public UseAction getUseAction(ItemStack par1ItemStack) {
+		public UseAction getUseAction(ItemStack itemstack) {
 			return UseAction.DRINK;
 		}
 

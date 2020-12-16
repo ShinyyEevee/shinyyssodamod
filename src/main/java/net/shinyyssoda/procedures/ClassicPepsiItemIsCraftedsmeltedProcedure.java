@@ -19,7 +19,8 @@ public class ClassicPepsiItemIsCraftedsmeltedProcedure extends SodaModElements.M
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure ClassicPepsiItemIsCraftedsmelted!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure ClassicPepsiItemIsCraftedsmelted!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

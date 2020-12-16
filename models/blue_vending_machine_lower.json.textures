@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "model0",
+        "2": "model2",
+        "3": "vending_machine"
+      },
+      "name": "default"
+    }
+  }
+}

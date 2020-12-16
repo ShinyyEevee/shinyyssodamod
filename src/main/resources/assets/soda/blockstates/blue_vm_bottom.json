@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "soda:block/blue_vm_bottom"
+    },
+    "facing=east": {
+      "model": "soda:block/blue_vm_bottom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "soda:block/blue_vm_bottom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "soda:block/blue_vm_bottom",
+      "y": 270
+    }
+  }
+}
