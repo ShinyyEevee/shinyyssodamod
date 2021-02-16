@@ -1936,11 +1936,11 @@
   "language_map": {
     "en_us": {
       "item.soda.pineapple_pepsi": "Pineapple Pepsi",
-      "item.soda.mangocan": "Mango Can",
       "item.soda.classicpepsi": "Classic Pepsi",
+      "item.soda.mangocan": "Mango Can",
       "item.mangopepsi.name": "Mango Pepsi",
-      "item.pepsi.pepsi": "Pepsi",
       "item.soda.valentines_can": "Valentines Can",
+      "item.pepsi.pepsi": "Pepsi",
       "item.soda.game_fuel_red_can": "Game Fuel Red Can",
       "item.soda.berrypepsi": "Berry Pepsi",
       "advancements.makevanillapepsi.descr": "You\u0027ve made a Vanilla tasting Pepsi, nice!",
