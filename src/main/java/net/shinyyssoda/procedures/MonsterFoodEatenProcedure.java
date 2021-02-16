@@ -1,6 +1,7 @@
 package net.shinyyssoda.procedures;
 
 import net.shinyyssoda.SodaModElements;
+import net.shinyyssoda.SodaMod;
 
 import net.minecraft.potion.Effects;
 import net.minecraft.potion.EffectInstance;
@@ -18,7 +19,7 @@ public class MonsterFoodEatenProcedure extends SodaModElements.ModElement {
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure MonsterFoodEaten!");
+				SodaMod.LOGGER.warn("Failed to load dependency entity for procedure MonsterFoodEaten!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

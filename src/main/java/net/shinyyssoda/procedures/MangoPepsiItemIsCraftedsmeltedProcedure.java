@@ -1,6 +1,7 @@
 package net.shinyyssoda.procedures;
 
 import net.shinyyssoda.SodaModElements;
+import net.shinyyssoda.SodaMod;
 
 import net.minecraftforge.items.ItemHandlerHelper;
 
@@ -20,7 +21,7 @@ public class MangoPepsiItemIsCraftedsmeltedProcedure extends SodaModElements.Mod
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure MangoPepsiItemIsCraftedsmelted!");
+				SodaMod.LOGGER.warn("Failed to load dependency entity for procedure MangoPepsiItemIsCraftedsmelted!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

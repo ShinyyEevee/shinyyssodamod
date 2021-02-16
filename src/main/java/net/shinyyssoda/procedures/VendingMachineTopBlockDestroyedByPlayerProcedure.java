@@ -1,6 +1,7 @@
 package net.shinyyssoda.procedures;
 
 import net.shinyyssoda.SodaModElements;
+import net.shinyyssoda.SodaMod;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
@@ -17,22 +18,22 @@ public class VendingMachineTopBlockDestroyedByPlayerProcedure extends SodaModEle
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure VendingMachineTopBlockDestroyedByPlayer!");
+				SodaMod.LOGGER.warn("Failed to load dependency x for procedure VendingMachineTopBlockDestroyedByPlayer!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure VendingMachineTopBlockDestroyedByPlayer!");
+				SodaMod.LOGGER.warn("Failed to load dependency y for procedure VendingMachineTopBlockDestroyedByPlayer!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure VendingMachineTopBlockDestroyedByPlayer!");
+				SodaMod.LOGGER.warn("Failed to load dependency z for procedure VendingMachineTopBlockDestroyedByPlayer!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure VendingMachineTopBlockDestroyedByPlayer!");
+				SodaMod.LOGGER.warn("Failed to load dependency world for procedure VendingMachineTopBlockDestroyedByPlayer!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");

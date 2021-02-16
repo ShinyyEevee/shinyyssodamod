@@ -1,5 +1,6 @@
 modLoader="javafml"
-loaderVersion="[31,)"
+loaderVersion="[35,)"
+license="Not specified"
 
 [[mods]]
 modId="soda"
@@ -16,7 +17,7 @@ Shinyy's General Soda Mod
 [[dependencies.soda]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.4]"
     ordering="NONE"
     side="BOTH"
 

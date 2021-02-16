@@ -1885,6 +1885,50 @@
           }
         ]
       }
+    },
+    {
+      "name": "ValentinesCan",
+      "type": "item",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "valentines_can"
+    },
+    {
+      "name": "ValentinesCanRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "valentines_can_recipe"
+    },
+    {
+      "name": "ValentinesSoda",
+      "type": "food",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "valentines_soda"
+    },
+    {
+      "name": "ValentinesSodaFoodEaten",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "valentines_soda_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1896,6 +1940,7 @@
       "item.soda.classicpepsi": "Classic Pepsi",
       "item.mangopepsi.name": "Mango Pepsi",
       "item.pepsi.pepsi": "Pepsi",
+      "item.soda.valentines_can": "Valentines Can",
       "item.soda.game_fuel_red_can": "Game Fuel Red Can",
       "item.soda.berrypepsi": "Berry Pepsi",
       "advancements.makevanillapepsi.descr": "You\u0027ve made a Vanilla tasting Pepsi, nice!",
@@ -1903,6 +1948,7 @@
       "item.soda.spooky_soda_can": "Spooky Soda Can",
       "item.soda.nuka_cola_cherry_glass": "Nuka Cola Cherry Glass",
       "item.soda.game_fuel_yellow_can": "Game Fuel Yellow Can",
+      "item.soda.valentines_soda": "Valentines Soda",
       "item.pepsi.pepsi_can_pineapple": "Pineapple Pepsi Can",
       "item.soda.gold_can": "Gold Can",
       "item.pepsican.name": "Pepsi Can",
@@ -2066,10 +2112,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.15.2",
+    "currentGenerator": "forge-1.16.4",
     "credits": "Myself",
     "modElementsPackage": "net.shinyyssoda",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000546519
+  "mcreatorVersion": 202100103117
 }

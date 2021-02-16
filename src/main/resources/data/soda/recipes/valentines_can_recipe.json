@@ -1,0 +1,42 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:pink_dye"
+    },
+    "1": {
+      "item": "minecraft:pink_dye"
+    },
+    "2": {
+      "item": "minecraft:pink_dye"
+    },
+    "3": {
+      "item": "minecraft:red_dye"
+    },
+    "4": {
+      "item": "soda:can"
+    },
+    "5": {
+      "item": "minecraft:red_dye"
+    },
+    "6": {
+      "item": "minecraft:pink_dye"
+    },
+    "7": {
+      "item": "minecraft:pink_dye"
+    },
+    "8": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "soda:valentines_can",
+    "count": 1
+  }
+}
