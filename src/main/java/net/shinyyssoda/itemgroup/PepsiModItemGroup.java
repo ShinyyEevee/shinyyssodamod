@@ -1,7 +1,7 @@
 
 package net.shinyyssoda.itemgroup;
 
-import net.shinyyssoda.item.PepsiCanItem;
+import net.shinyyssoda.item.PepsiCanRedItem;
 import net.shinyyssoda.SodaModElements;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -22,7 +22,7 @@ public class PepsiModItemGroup extends SodaModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(PepsiCanItem.block, (int) (1));
+				return new ItemStack(PepsiCanRedItem.block, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

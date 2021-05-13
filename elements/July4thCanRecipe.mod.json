@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.DYE#10"
+        "value": "Items.DYE#1"
       },
       {
-        "value": "CUSTOM:SteelBlock"
+        "value": "Items.DYE#19"
       },
       {
-        "value": "Items.DYE#10"
+        "value": "Items.DYE#18"
       },
       {
-        "value": "Items.DYE#8"
+        "value": "Items.DYE#1"
       },
       {
-        "value": "CUSTOM:SteelBlock"
+        "value": "CUSTOM:Can"
       },
       {
-        "value": "Items.DYE#8"
+        "value": "Items.DYE#18"
       },
       {
-        "value": ""
+        "value": "Items.DYE#1"
       },
       {
-        "value": "Blocks.LOG#0"
+        "value": "Items.DYE#19"
       },
       {
-        "value": ""
+        "value": "Items.DYE#18"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GreenVMBottom"
+      "value": "CUSTOM:July4thCan"
     },
-    "name": "green_vending_machine_recipe",
+    "name": "july_4th_can_recipe",
     "namespace": "mod"
   }
 }

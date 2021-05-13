@@ -4,7 +4,7 @@
   "definition": {
     "name": "Soda Mod",
     "icon": {
-      "value": "CUSTOM:PepsiCan"
+      "value": "CUSTOM:PepsiCanRed"
     },
     "showSearch": false
   }
