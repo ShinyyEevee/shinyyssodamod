@@ -1,0 +1,27 @@
+{
+  "group": "soda",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "2": {
+      "item": "soda:cotton_candy_soda_can"
+    },
+    "3": {
+      "item": "minecraft:potion"
+    },
+    "4": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "soda:cotton_candy_soda",
+    "count": 1
+  }
+}

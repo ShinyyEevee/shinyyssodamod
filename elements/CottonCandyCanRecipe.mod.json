@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#9"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#9"
+      },
+      {
+        "value": "CUSTOM:Can"
+      },
+      {
+        "value": "Items.DYE#9"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DYE#9"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CottonCandySodaCan"
+    },
+    "name": "cotton_candy_can_recipe",
+    "namespace": "mod"
+  }
+}

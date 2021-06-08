@@ -178,14 +178,6 @@
       "ids": {}
     },
     {
-      "name": "UnrefinedSteelore",
-      "type": "block",
-      "sortid": 33,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "UnrefinedSteelIngot",
       "type": "item",
       "sortid": 34,
@@ -1087,15 +1079,6 @@
       "registry_name": "mtn_dew"
     },
     {
-      "name": "SodaModBlockTab",
-      "type": "tab",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "soda_mod_block_tab"
-    },
-    {
       "name": "DrPepperCan",
       "type": "item",
       "sortid": 128,
@@ -1730,6 +1713,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "july_4th_can_recipe"
+    },
+    {
+      "name": "UnrefinedSteelOre",
+      "type": "block",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unrefined_steel_ore"
+    },
+    {
+      "name": "CottonCandySodaCan",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cotton_candy_soda_can"
+    },
+    {
+      "name": "CottonCandySoda",
+      "type": "food",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cotton_candy_soda"
+    },
+    {
+      "name": "CottonCandyCanRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cotton_candy_can_recipe"
+    },
+    {
+      "name": "CottonCandySodaRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cotton_candy_soda_recipe"
     }
   ],
   "variable_elements": [],
@@ -1783,6 +1811,7 @@
       "item.soda.grass_soda_can": "Grass Soda Can",
       "item.soda.crush_grape_can": "Crush Grape Can",
       "item.dietpepsican.name": "Diet Pepsi Can",
+      "item.soda.cotton_candy_soda": "Cotton Candy Soda",
       "block.soda.steelblock": "Steel Block",
       "tile.unrefinedsteelore.name": "Unrefined Steelore",
       "item.soda.redcan": "Red Can",
@@ -1869,10 +1898,10 @@
       "item.soda.dr_pepper": "Dr Pepper",
       "item.pepsi.berrypepsi": "Berry Pepsi",
       "advancements.makemangopepsi.descr": "You\u0027ve made Mango Pepsi!",
-      "itemGroup.tabsoda_mod_block_tab": "Soda Misc Tab",
       "item.soda.coca_cola": "Coca Cola",
       "advancements.makepepsican.title": "You can make Pepsi!",
       "item.redcan.name": "Red Can",
+      "item.soda.cotton_candy_soda_can": "Cotton Candy Can",
       "item.soda.berrycan": "Berry Can",
       "item.soda.sevenupcherrycan": "7-Up Cherry Can",
       "item.pepsi.pepsicanberry": "Berry Pepsi Can",
@@ -1889,11 +1918,14 @@
       "item.soda.pineapple_can": "Pineapple Can",
       "item.pepsicanred.name": "Classic Pepsi Can",
       "item.soda.pepsicancherry": "Cherry Pepsi Can",
-      "block.soda.unrefinedsteelore": "Unrefined Steelore",
       "item.cherrypepsi.name": "Cherry Pepsi",
       "item.pepsi.dietpepsican": "Diet Pepsi Can",
       "item.pepsi.lime_pepsi": "Lime Pepsi"
     }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
   },
   "workspaceSettings": {
     "modid": "soda",
@@ -1914,5 +1946,5 @@
     "modElementsPackage": "net.shinyyssoda",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100103117
+  "mcreatorVersion": 202100118117
 }

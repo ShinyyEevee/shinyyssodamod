@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 18,
   "_type": "block",
   "definition": {
     "texture": "unrefined_steelore",
@@ -8,37 +8,44 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
+    "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
-    "mx": 0.0,
-    "my": 0.0,
-    "mz": 0.0,
-    "Mx": 1.0,
-    "My": 1.0,
-    "Mz": 1.0,
-    "name": "Unrefined Steelore",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Unrefined Steel Ore",
     "specialInfo": [],
-    "hardness": 4.0,
+    "hardness": 15.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:SodaModBlockTab"
+      "value": "BUILDING_BLOCKS"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": "CUSTOM:UnrefinedSteelIngot"
     },
-    "dropAmount": 3,
+    "dropAmount": 5,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -60,6 +67,8 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
@@ -67,7 +76,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -101,9 +110,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 8,
-    "minGenerateHeight": 5,
-    "maxGenerateHeight": 125
+    "frequencyPerChunks": 15,
+    "frequencyOnChunk": 5,
+    "minGenerateHeight": 64,
+    "maxGenerateHeight": 100
   }
 }

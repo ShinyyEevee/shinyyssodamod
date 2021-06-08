@@ -1,7 +1,6 @@
 
 package net.shinyyssoda.item;
 
-import net.shinyyssoda.itemgroup.SodaModBlockTabItemGroup;
 import net.shinyyssoda.SodaModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -11,6 +10,7 @@ import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
@@ -31,7 +31,7 @@ public class UnrefinedSteelIngotItem extends SodaModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(SodaModBlockTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("unrefinedsteelingot");
 		}
 

@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 18,
   "_type": "food",
   "definition": {
     "renderType": 0,
@@ -17,6 +17,9 @@
     "nutritionalValue": 4,
     "saturation": 3.0,
     "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
     "forDogs": false,
     "isAlwaysEdible": true,
     "animation": "drink",
